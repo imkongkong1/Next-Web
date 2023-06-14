@@ -121,7 +121,11 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>ChatGPT Next</div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          <p>看你们用的那么凶，我换成了120刀的，攒劲搞！</p>
+          <p>chatgpt使用教程网盘地址：<a href="https://pan.quark.cn/s/85114ba3a874" target="_blank" > 点击进入</a></p>
+        购买key，共享密码，或者账号请访问:<a href="https://kaka.haowait.xyz" target="_blank" > https://kaka.haowait.xyz</a>
+          <p>chatgpt安卓版下载：<a href="https://www.123pan.com/s/2wfUVv-HjApd.html" target="_blank" >点击下载</a></p>
+          <p>QQ群：550856931</p>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -173,8 +177,8 @@ export function SideBar(props: { className?: string }) {
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
           </div>
-          <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank">
+         <div className={styles["sidebar-action"]}>
+            <a href={"https://kaka.haowait.xyz"} target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
