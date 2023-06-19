@@ -118,8 +118,10 @@ export function SideBar(props: { className?: string }) {
         shouldNarrow && styles["narrow-sidebar"]
       }`}
     >
-      <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+      <div className={styles["sidebar-header"]} data-tauri-drag-region>
+        <div className={styles["sidebar-title"]} data-tauri-drag-region>
+          ChatGPT Next
+        </div>
         <div className={styles["sidebar-sub-title"]}>
           <p>看你们用的那么凶，我换成了120刀的，攒劲搞！</p>
           <p>chatgpt使用教程网盘地址：<a href="https://pan.quark.cn/s/85114ba3a874" target="_blank" > 点击进入</a></p>
