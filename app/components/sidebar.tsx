@@ -121,7 +121,7 @@ export function SideBar(props: { className?: string }) {
           ChatGPT Next
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          <p>看你们用的那么凶，我换成了120刀的，攒劲搞！</p>
+          <p>最近封号非常严重，我已经连续换了好多号了，且用且珍惜！</p>
           <p>chatgpt使用教程网盘地址：<a href="https://pan.quark.cn/s/85114ba3a874" target="_blank" > 点击进入</a></p>
         购买key，共享密码，或者账号请访问:<a href="https://kaka.haowait.xyz" target="_blank" > https://kaka.haowait.xyz</a>
           <p>chatgpt安卓版下载：<a href="https://www.123pan.com/s/2wfUVv-HjApd.html" target="_blank" >点击下载</a></p>
